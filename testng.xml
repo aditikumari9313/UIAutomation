@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="name" value="java"/> 
+<parameter name="email" value="abcd@gmail.com"/>  
+<parameter name="name" value="seleium"/> 
+<parameter name="email" value="abcde@gmail.com"/>  
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="test.FormSubmissionTest"/>
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
